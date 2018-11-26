@@ -7,10 +7,12 @@
 //
 
 import UIKit
-import RxSwift
+//import RxSwift
+import SampleModuleC
 
 class ViewController: UIViewController {
-
+    
+    let clazz = SampleCClass.saySomething(<#T##SampleCClass#>)
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

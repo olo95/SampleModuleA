@@ -163,7 +163,7 @@
 				ECB46EC521ABEF6200A01F45 /* Sources */,
 				ECB46EC621ABEF6200A01F45 /* Frameworks */,
 				ECB46EC721ABEF6200A01F45 /* Resources */,
-				B686BBC46BE8CE9DDB181009 /* [CP] Embed Pods Frameworks */,
+				A929190F8820C456D57453BA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -281,7 +281,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B686BBC46BE8CE9DDB181009 /* [CP] Embed Pods Frameworks */ = {
+		A929190F8820C456D57453BA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -292,6 +292,7 @@
 				"${SRCROOT}/../../Pods/Target Support Files/Pods-ProjectA/Pods-ProjectA-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SampleModuleC/SampleModuleC.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -299,6 +300,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SampleModuleC.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
